@@ -537,6 +537,7 @@
       unarchive:
         src: /usr/local/src/openshift-client-linux.tar.gz
         dest: /usr/local/bin
+        keep_newer: true
         remote_src: yes
 
   - name: Preparing OCP installer
